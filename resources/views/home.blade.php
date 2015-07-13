@@ -424,7 +424,7 @@
         <div class="cbp-item jordans buscemi">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/1.jpg" alt="">
+                    <img src="/images/gallery/1.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -432,7 +432,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="/portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/1.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/1.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -442,7 +442,7 @@
         <div class="cbp-item adidas">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/2.jpg" alt="">
+                    <img src="/images/gallery/2.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -450,7 +450,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="/portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/2.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Looking Publishing <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/2.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Looking Publishing <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -460,7 +460,7 @@
         <div class="cbp-item jordans">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/3.jpg" alt="">
+                    <img src="/images/gallery/3.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -468,7 +468,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="/portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/3.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Webpage as Packages <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/3.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Webpage as Packages <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -478,7 +478,7 @@
         <div class="cbp-item adidas">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/4.jpg" alt="">
+                    <img src="/images/gallery/4.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -486,7 +486,7 @@
                             <h3>Jordan 10'ss</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/4.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Software Versions <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/4.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Software Versions <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -496,7 +496,7 @@
         <div class="cbp-item gucci">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/5.jpg" alt="">
+                    <img src="/images/gallery/5.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -504,7 +504,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/5.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Printer took Galley <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/5.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Printer took Galley <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -514,7 +514,7 @@
         <div class="cbp-item">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/6.jpg" alt="">
+                    <img src="/images/gallery/6.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -522,7 +522,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/6.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Popularise Release <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/6.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Popularise Release <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -532,7 +532,7 @@
         <div class="cbp-item jordans buscemi">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/7.jpg" alt="">
+                    <img src="/images/gallery/7.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -540,7 +540,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/7.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/7.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Model as Structures <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -550,7 +550,7 @@
         <div class="cbp-item adidas">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/14.jpg" alt="">
+                    <img src="/images/gallery/14.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -558,7 +558,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/14.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Looking Publishing <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/14.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Looking Publishing <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -568,7 +568,7 @@
         <div class="cbp-item jordans">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/13.jpg" alt="">
+                    <img src="/images/gallery/13.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -576,7 +576,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/13.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Webpage as Packages <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/13.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Webpage as Packages <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -586,7 +586,7 @@
         <div class="cbp-item adidas">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/10.jpg" alt="">
+                    <img src="/images/gallery/10.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -594,7 +594,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/10.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Software Versions <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/10.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Software Versions <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -604,7 +604,7 @@
         <div class="cbp-item gucci">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/11.jpg" alt="">
+                    <img src="/images/gallery/11.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -612,7 +612,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/11.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Printer took Galley <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/11.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Printer took Galley <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
@@ -622,7 +622,7 @@
         <div class="cbp-item">
             <div class="cbp-caption">
                 <div class="cbp-caption-defaultWrap">
-                    <img src="/images/gallery/12.jpg" alt="">
+                    <img src="/images/gallery/12.JPG" alt="">
                 </div>
                 <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
@@ -630,7 +630,7 @@
                             <h3>Jordan 10's</h3>
                             <br />
                             <a href="portfolio-1.html" class="cbp-l-caption-buttonLeft">more info</a>
-                            <a href="/images/gallery/12.jpg" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Popularise Release <br>reasonable always">view larger</a>
+                            <a href="/images/gallery/12.JPG" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Popularise Release <br>reasonable always">view larger</a>
                         </div>
                     </div>
                 </div>
