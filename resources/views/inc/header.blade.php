@@ -50,7 +50,7 @@
                 </li>
 
                 @if(Auth::check())
-                    <li class=""><a href="contact" >{{ucwords(Auth::user()->last_name)}}</a></li>
+                    <li><a href="{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
                 @endif
 
               </ul>

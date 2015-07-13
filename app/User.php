@@ -43,4 +43,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return new static(compact('first_name','last_name', 'email', 'password', 'address', 'city', 'state', 'zip_code', 'country'));
     }
+
+    /****************************/
+    /*
+     * RELATIONSHIPS
+     */
+    /****************************/
+
+    public function orders()
+    {
+        return $this->hasMany('HMD\Order');
+    }
 }

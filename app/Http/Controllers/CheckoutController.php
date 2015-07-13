@@ -2,10 +2,13 @@
 
 namespace HMD\Http\Controllers;
 
+use HMD\Commands\AddOrderCommand;
 use Illuminate\Http\Request;
 
 use HMD\Http\Requests;
 use HMD\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Session;
 
 class CheckoutController extends Controller
 {
@@ -37,18 +40,34 @@ class CheckoutController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Set your secret key: remember to change this to your live secret key in production
+        // See your keys here https://dashboard.stripe.com/account/apikeys
+        \Stripe\Stripe::setApiKey("sk_test_IPdo7v9gzewwq1xFDuE487n8");
+
+        // Create the charge on Stripe's servers - this will charge the user's card
+        try {
+            $charge = \Stripe\Charge::create(array(
+                    "amount" => 1000, // amount in cents, again
+                    "currency" => "usd",
+                    "source" => $request->stripeToken,
+                    "description" => "Example charge")
+            );
+
+            $this->dispatchFromArray(AddOrderCommand::class, [
+                'brand' => Session::get('shoe.request')['brand'],
+                'model' => Session::get('shoe.request')['model'],
+                'size' => Session::get('shoe.request')['size'],
+            ]);
+        } catch(\Stripe\Error\Card $e) {
+            // The card has been declined
+        }
+
+        return redirect()->route('thank.you');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function show($id)
+    public function getThankYou()
     {
-        //
+        return view('thank-you');
     }
 
     /**

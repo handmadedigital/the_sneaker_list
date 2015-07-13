@@ -33,6 +33,7 @@ $router->get('/contact', function(){
 $router->get('/checkout', ['middleware' => 'auth', 'as' => 'checkout', 'uses' => 'CheckoutController@create']);
 $router->post('/checkout', ['middleware' => 'auth', 'as' => 'checkout', 'uses' => 'CheckoutController@store']);
 
+$router->get('/thank-you', ['as' => 'thank.you', 'uses' => 'CheckoutController@getThankYou']);
 
 
 
@@ -44,3 +45,16 @@ $router->get('/auth/sign-up', function(){
 });
 $router->post('/auth/register', ['as' => 'registration', 'uses' => 'Auth\RegisterController@store']);
 $router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionController@postLogin']);
+
+
+
+/**********************/
+/*
+ * ORDERS
+ */
+/**********************/
+
+$router->group(['middleware' => 'auth'], function($router){
+    $router->get('admin/orders', ['uses' => 'AdminShoeRequestController@index']);
+    $router->get('{user_id}/orders', ['uses' => 'UserShoeRequestController@index']);
+});
