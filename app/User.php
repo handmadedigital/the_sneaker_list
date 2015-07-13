@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace HMD;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -24,7 +24,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['first_name','last_name', 'email', 'password', 'address', 'city', 'state', 'zip_code', 'country'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -32,4 +32,15 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    /****************************/
+    /*
+     * COMMANDS
+     */
+    /****************************/
+
+    public static function register($first_name, $last_name, $email, $password, $address, $city, $state, $zip_code, $country)
+    {
+        return new static(compact('first_name','last_name', 'email', 'password', 'address', 'city', 'state', 'zip_code', 'country'));
+    }
 }

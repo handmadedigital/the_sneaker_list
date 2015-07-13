@@ -92,6 +92,7 @@
             $imgTitle = $('#imgTitle'),
             $modelGallery = $('#shoeModelGallery'),
             $galleryMatch = $('.gallery-image-match'),
+            $shoeModel = $(".shoe-model"),
             $submitModel = $('.next-model');
 
 
@@ -112,11 +113,12 @@
 
         });
 
-        $submitModel.on('click', function() {
+        $submitModel.on('click', function(event) {
+            event.preventDefault();
             var $self = $(this);
 
             // Effect was not working with .click on <a> tag so used radio button checked as alternative
-            if($self.is(':checked')) {// If next button is clicked
+            if($shoeModel.is(':checked')) {// If next button is clicked
                 $step2.removeClass('active');
                 $step2Indicator.removeClass('active');
                 setTimeout(function() {

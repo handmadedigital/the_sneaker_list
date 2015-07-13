@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: HMD
+        psr4_prefix: HMD
         src_path: app

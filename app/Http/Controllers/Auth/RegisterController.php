@@ -1,16 +1,13 @@
 <?php
 
-namespace HMD\Http\Controllers;
+namespace HMD\Http\Controllers\Auth;
 
-use HMD\Commands\ShoeRequestCommand;
-use HMD\Http\Requests\ShowRequestRequest;
-use Illuminate\Http\Request;
-
-use HMD\Http\Requests;
+use HMD\Commands\RegisterCommand;
 use HMD\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Input;
+use HMD\Http\Requests\RegisterRequest;
+use Laracasts\Flash\Flash;
 
-class ShoeRequestController extends Controller
+class RegisterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -23,20 +20,28 @@ class ShoeRequestController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Show the form for creating a new resource.
      *
-     * @param  ShowRequestRequest  $request
      * @return Response
      */
-    public function store(ShowRequestRequest $request)
+    public function create()
     {
-        $request->session()->put('shoe.request', [
-            'brand' => $request->brand,
-            'model' => $request->shoe_model,
-            'size' => $request->size
-        ]);
+       return view('auth.register');
+    }
 
-        return response()->redirectToRoute('checkout');
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  RegisterRequest  $request
+     * @return Response
+     */
+    public function store(RegisterRequest $request)
+    {
+        $this->dispatchFrom(RegisterCommand::class, $request);
+
+        Flash::message('Thank you for registering');
+
+        return redirect()->back();
     }
 
     /**

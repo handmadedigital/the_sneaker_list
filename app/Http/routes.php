@@ -20,7 +20,7 @@ $router->get('/about-us', function(){
 $router->get('/shoe-request', function(){
     return view('shoe-request');
 });
-$router->post('/shoe-request', ['uses' => 'ShoeRequestController@postShoeRequest']);
+$router->post('/shoe-request', ['uses' => 'ShoeRequestController@store']);
 $router->get('/how-it-works', function(){
     return view('how-it-works');
 });
@@ -30,3 +30,17 @@ $router->get('/gallery', function(){
 $router->get('/contact', function(){
     return view('contact');
 });
+$router->get('/checkout', ['middleware' => 'auth', 'as' => 'checkout', 'uses' => 'CheckoutController@create']);
+$router->post('/checkout', ['middleware' => 'auth', 'as' => 'checkout', 'uses' => 'CheckoutController@store']);
+
+
+
+
+/************************/
+/* AUTH */
+/**************************/
+$router->get('/auth/sign-up', function(){
+   return view('auth.sign-up');
+});
+$router->post('/auth/register', ['as' => 'registration', 'uses' => 'Auth\RegisterController@store']);
+$router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionController@postLogin']);

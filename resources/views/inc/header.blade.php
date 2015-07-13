@@ -49,6 +49,10 @@
 
                 </li>
 
+                @if(Auth::check())
+                    <li class=""><a href="contact" >{{ucwords(Auth::user()->last_name)}}</a></li>
+                @endif
+
               </ul>
 
             </nav>
@@ -59,8 +63,9 @@
 
     </div>
 	<!-- end Navigation Menu -->
-
-    <div class="menu_rlinks2"><a href="#">Sign Up</a></div>
+    @if(! Auth::check())
+        <div class="menu_rlinks2"><a href="/auth/sign-up">Sign Up</a></div>
+   @endif
 
 	</div>
 

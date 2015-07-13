@@ -131,7 +131,8 @@
 
         </div>
 
-
+            <form method="post">
+            <input type="hidden" name="_token" value="{{csrf_token()}}">
             <div class="shoe-request-wrapper">
                 <div id="topRedBar"><span id="topBarInner"></span></div>
                 <div id="nextBackButtons">
@@ -144,7 +145,7 @@
                     <span class="line"></span>
                 </h2>
                 <div id="requestFormWraper">
-                    <form type="POST" action="" class="steps-form" id="shoeRequestForm">
+                    <div class="steps-form" id="shoeRequestForm">
                         <div class="quiz-question active" id="step-1">
                             <h5><em>Choose a <strong>Brand</strong> to get started!</em></h5>
                             <div class="shoe-request-info" >
@@ -179,7 +180,7 @@
                         <div class="quiz-question unactive" id="step-2">
                             <h5><em>What is the <strong>Model</strong> name?</em></h5>
                             <label class="shoe-request-info">
-                                <input id="modelNameInput" type="input" name="question" >
+                                <input id="modelNameInput" type="input" name="shoe_model" >
                                 <div id="imgTitle">Select all images that apply!<br/><em>(Just click next if none of these images match what you are looking for)</em></div><br/>
                                     <div  id="shoeModelGallery">
                                         <div class="width-25">
@@ -250,9 +251,9 @@
 
                                         <br/>
                                     </div>
-                                    <label class="gallery-image-submit">
-                                        <input class="next-model" type="radio" name="model" id="ModelNext" value="next">Next<br>
-                                    </label>
+                                    <button class="gallery-image-submit">
+                                        <div class="next-model" id="ModelNext" >Next</div>
+                                    </button>
 
                             </label>
                         </div>
@@ -281,7 +282,7 @@
 
 
 
-                    </form>
+                    </div>
                 </div>
 
                 <div class="steps-indicator-wrapper">
@@ -292,13 +293,13 @@
                         <div class="steps-indicator" id="stepsIndicator-4"></div>
                     </div>
                 </div>
-        </div>
+            </div>
 
 
         <div class="confirm-order">
             <div id="shoeBoxWrapper" class="unactive" >
                 <div id="shoeBoxBody">
-
+                <form>
                     <div id="shoeBoxLid">
                         <div id="topHole"></div>
                         <div id="brandLogo"></div>
@@ -342,10 +343,11 @@
                     </div>
 
                     <div id="siteName">www.TheSneakerListInc.com</div>
-
+                </form>
                 </div>
             </div>
         </div>
+        </form>
     </div>
 </div><!-- end featured section 73 -->
 

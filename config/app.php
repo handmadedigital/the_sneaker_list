@@ -140,9 +140,15 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        HMD\Providers\AppServiceProvider::class,
+        HMD\Providers\EventServiceProvider::class,
+        HMD\Providers\RouteServiceProvider::class,
+        HMD\Providers\BusServiceProvider::class,
+
+        /*
+         * THIRD PARTY
+         */
+        Laracasts\Flash\FlashServiceProvider::class
 
     ],
 
@@ -191,6 +197,11 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        /*
+         * THIRD PARTY
+         */
+        'Flash' => Laracasts\Flash\Flash::class
 
     ],
 
