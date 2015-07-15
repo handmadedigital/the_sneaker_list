@@ -104,7 +104,7 @@
     <div class="about-us-header">
 
 
-        <h2 class="title25">Sign up<em> Sign Up Now! and receive your first shoe request for FREE!</em>
+        <h2 class="title25">Sign In<em></em>
             <span class="line"></span></h2>
 
 
@@ -140,61 +140,25 @@
             <div id="topRedBar"><span id="topBarInner"></span></div>
         
             
-            <h2 class="title26">Register
+            <h2 class="title26">Sign In
                 <span class="line"></span>
             </h2>
             <div class="space-60"></div>
             <div id="signUpFormWraper">
-                <form method="post" action="/auth/register" id="registerForm">
+                <form method="post" action="/auth/login" id="LoginForm">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="first_name" class="form-input" placeholder="First Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="last_name" class="form-input" placeholder="Last Name">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END NAMES -->
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="text" name="address" class="form-input" placeholder="Street Address">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="text" name="city" class="form-input" placeholder="City">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="text" name="state" class="form-input" placeholder="State">
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <input type="number" name="zip_code" class="form-input" placeholder="Zip Code">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END ADDRESS -->
                     <div class="form-group">
                         <input type="email" name="email" class="form-input" placeholder="Email Address">
                     </div>
                     <div class="form-group">
                         <input type="password" name="password" class="form-input" placeholder="Password">
                     </div>
-                    <!-- END CREDENTIALS -->
-                    <button type="submit" class="gallery-image-submit">Sign Up!</button>
-                    <a href="/auth/log-in"><button class="gallery-image-submit">Sign In</button></a>
+                    <a href="/auth/sign-up"><button class="gallery-image-submit">Register!</button></a>
+                    <button type="submit" class="gallery-image-submit">Sign In</button>
                 </form>
             </div>  
-      
+
+                
         </div>
     
         

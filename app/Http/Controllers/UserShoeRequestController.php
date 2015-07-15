@@ -6,6 +6,7 @@ use HMD\User;
 use Illuminate\Http\Request;
 
 use HMD\Http\Requests;
+use HMD\Order;
 use HMD\Http\Controllers\Controller;
 
 class UserShoeRequestController extends Controller
@@ -51,9 +52,11 @@ class UserShoeRequestController extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function show($id)
+    public function show($order_number)
     {
-        //
+        $order = Order::where('order_number', '=', $order_number)->first();
+
+        return view('orders.individual.user', $order);
     }
 
     /**

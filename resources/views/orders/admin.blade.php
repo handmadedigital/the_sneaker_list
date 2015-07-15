@@ -1,12 +1,11 @@
-@include('inc.admin-header')
+@extends('layouts.admin')
 
-    @include('inc.admin-sidebar')
+@section('admin-content')
 
-    <div class="admin-content">
-        <div id="dateRange">
-            <p id="title"> Your Orders!</p>
+<div id="dateRange">
+    <p id="title"> Your Orders!</p>
 
-            <form id="datePicker">
+    <form id="datePicker">
                 <label>From:</label> <input id="fromDate" type="datetime" name="from">
                 <label>To:</label> <input id="toDate" type="datetime" name="to">
             </form>
@@ -49,12 +48,10 @@
                         @else
                             <td>${{$order->price}}</td>
                         @endif
-                    </tr>
+                    </tr> 
                 @endforeach
                 </tbody>
             </table>
         </div>
 
-    </div>
-
-@include('inc.admin-footer')
+@endsection

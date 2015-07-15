@@ -8,7 +8,7 @@
 	<!-- Navigation Menu -->
     <div class="menu_main rslinks">
 
-      <div class="navbar yamm navbar-default">
+      <div class="yamm navbar-default">
 
           <div class="navbar-header">
             <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"  > <span>Menu</span>
@@ -50,7 +50,7 @@
                 </li>
 
                 @if(Auth::check())
-                    <li><a href="{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
+                    <li><a href="/{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
                 @endif
 
               </ul>

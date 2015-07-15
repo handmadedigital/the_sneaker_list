@@ -181,78 +181,13 @@
                             <h5><em>What is the <strong>Model</strong> name?</em></h5>
                             <label class="shoe-request-info">
                                 <input id="modelNameInput" type="input" name="shoe_model" >
-                                <div id="imgTitle">Select all images that apply!<br/><em>(Just click next if none of these images match what you are looking for)</em></div><br/>
-                                    <div  id="shoeModelGallery">
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c4.staticflickr.com/8/7525/16099403797_e1e4051b7a_c.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model1" value="reebok">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c2.staticflickr.com/6/5547/10516337715_bce72c57c9_c.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model2" value="nike">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c2.staticflickr.com/6/5001/5245553108_627757afa6.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model3" value="jordan">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c1.staticflickr.com/5/4035/4267626262_265d1f0186_z.jpg?zz=1"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model4" value="adidas">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c4.staticflickr.com/4/3135/2560298638_aa5c20f0f9_b.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model5" value="louis">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c4.staticflickr.com/4/3325/3517205538_8f18906d90_z.jpg?zz=1"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model6" value="gucci">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c2.staticflickr.com/6/5481/11009780583_f98cd5739f_b.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model7" value="buscemi">
-                                            </label>
-                                        </div>
-                                        <div class="width-25">
-                                            <label class="gallery-image-match">
-                                                <div class="match-img-wrapper">
-                                                    <img src="https://c4.staticflickr.com/8/7525/16099403797_e1e4051b7a_c.jpg"/>
-                                                </div>
-                                                    <input class="shoe-model" type="checkbox" name="model" id="model8" value="other">
-                                            </label>
-                                        </div>
-
-
-                                        <br/>
-                                    </div>
-                                    <button class="gallery-image-submit">
-                                        <div class="next-model" id="ModelNext" >Next</div>
+                                <div id="imgTitle">Do you have a picture of the shoes you would like us to find?<br/><em>Insert link below.</em>
+                                    <br/>
+                                    <input id="modelLinkInput" type="input" name="shoe_model_link" >
+                                </div><br/>
+                                
+                                    <button class="next-model gallery-image-submit">
+                                        <div class="" id="ModelNext" >Next</div>
                                     </button>
 
                             </label>

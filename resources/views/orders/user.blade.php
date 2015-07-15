@@ -132,7 +132,7 @@
 
                 </li>
 
-                <li><a href="{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
+                <li><a href="/{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
 
                 <li class=""><a>Logout</a></li>
 

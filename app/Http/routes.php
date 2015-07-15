@@ -43,6 +43,9 @@ $router->get('/thank-you', ['as' => 'thank.you', 'uses' => 'CheckoutController@g
 $router->get('/auth/sign-up', function(){
    return view('auth.sign-up');
 });
+$router->get('/auth/log-in', function(){
+   return view('auth.log-in');
+});
 $router->post('/auth/register', ['as' => 'registration', 'uses' => 'Auth\RegisterController@store']);
 $router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionController@postLogin']);
 
@@ -57,4 +60,6 @@ $router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionCon
 $router->group(['middleware' => 'auth'], function($router){
     $router->get('admin/orders', ['uses' => 'AdminShoeRequestController@index']);
     $router->get('{user_id}/orders', ['uses' => 'UserShoeRequestController@index']);
+    $router->get('/admin/order/{order_number}', ['uses' => 'AdminShoeRequestController@show']);
+    $router->get('/user/order/{order_number}', ['uses' => 'UserShoeRequestController@show']);
 });

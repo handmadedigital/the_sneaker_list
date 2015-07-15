@@ -191,10 +191,11 @@
                     </div>
                     <!-- END CREDENTIALS -->
                     <button type="submit" class="gallery-image-submit">Sign Up!</button>
-                    <a href="/auth/log-in"><button class="gallery-image-submit">Sign In</button></a>
+                    <button type="submit" class="gallery-image-submit">Login</button>
                 </form>
             </div>  
-      
+
+                
         </div>
     
         
