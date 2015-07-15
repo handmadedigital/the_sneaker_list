@@ -10097,3 +10097,189 @@ input[type="checkbox"].shoe-model {
 	right: -2%;
 	position: absolute;
 }
+
+body.request-body {
+	background: #fff;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////// Sign Up Section //////////////////////////////////////////////////////////////////////// 
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.form-input {
+	display: block;
+width: 100%;
+height: 45px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #F7F7F7;
+background-image: none;
+border: solid 2px #D8D8D8;
+}
+
+.space-60 {
+	height: 40px;
+	width: 100%;
+}
+
+#signUpFormWraper {
+width: 80%;
+margin: 0 auto;
+}
+
+.shoe-request-wrapper .title26 {
+font-size: 40px;
+font-family: 'Roboto', sans-serif;
+font-weight: 200;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+#creditCardFormWraper .form-row{
+	width: 100%;
+}
+
+#creditCardFormWraper .form-row div{
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	width: 150px;
+	font: 18px 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 42px;
+	color: #727272;
+}
+
+#creditCardFormWraper .form-row label {
+	width: 400px;
+
+}
+
+.form-row label input {
+	float: left;
+	height: 45px;
+	padding: 6px 12px;
+	color: #555;
+	vertical-align: middle;
+	background-color: #F7F7F7;
+	background-image: none;
+	border: solid 2px #D8D8D8;
+	margin: 0 0 0 15px;
+}
+
+.extra-info {
+	display: none;
+}
+
+.extra-info.active {
+	display: block;
+}
+
+
+/******************************/
+.none{
+
+}
+
+.order-user-info{
+	height: 10px;
+	background: rgba(0,0,0,.3);
+	position: relative;
+
+}
+
+#userInfo {
+margin: 20px;
+}
+
+#userInfo img {
+float: left;
+margin-bottom: 20px;
+}
+
+.list-user-info {
+width: calc(100% - 270px);
+float: left;
+margin-left: 20px;
+}
+
+.list-user-info li {
+height: 50px;
+font-size: 18px;
+line-height: 50px;
+border-bottom: #E5E5E5 solid 1px;
+}
+
+.striped tbody tr:nth-child(odd) {
+background-color: #f2f2f2;
+}
+
+#orderTable {
+margin: 20px;
+height: 50px;
+font-size: 18px;
+line-height: 50px;
+background-color: #f7f7f7;
+border: solid 1px #EFEFEF;
+padding: 20px;
+overflow-x: auto;
+-webkit-transition: .5s;
+transition: .5s;
+}
+
+#orderTable:hover {
+transition: 1s;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+#orderDetails .full-width {
+width: calc(100% - 40px);
+}
+
+#orderTable thead tr th {
+	padding-left: 20px;
+text-align: left;
+}
+
+#orderTable tbody tr td {
+padding-left: 20px;
+}
+
+#orderTable tbody tr td strong {
+font-weight: 600px;
+}
+
+.thank-you-p {
+	margin: 0 auto;
+color: #333;
+font-size: 25px !important;
+font-family: 'Roboto', sans-serif !important;
+font-weight: 200 !important;
+font-style: italic !important;
+line-height: 44px;
+display: block;
+text-transform: none;
+margin-top: 20px !important;
+}
+
+.thank-you-p a{ 
+	font-weight: 400;
+}
+
+#modelLinkInput {
+	width: 80%;
+margin: 5% 10% 5%;
+padding: 10px;
+z-index: 999;
+position: relative;
+height: 45px;
+border: solid 2px #D8D8D8;
+background: #F4F4F4;
+}

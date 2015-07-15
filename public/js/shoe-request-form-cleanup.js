@@ -118,7 +118,7 @@
             var $self = $(this);
 
             // Effect was not working with .click on <a> tag so used radio button checked as alternative
-            if($shoeModel.is(':checked')) {// If next button is clicked
+            // If next button is clicked
                 $step2.removeClass('active');
                 $step2Indicator.removeClass('active');
                 setTimeout(function() {
@@ -131,7 +131,7 @@
                 // Confirm Details Model Chosen Output
                 var modelChosen = $('#modelNameInput').val();// Grab model selected by user
                 $("#modelName").html(modelChosen);// Add model selected to Step 4 (Order Confirmation)
-            }
+            
         });
 
         $('.match-img-wrapper').on('click', function() {

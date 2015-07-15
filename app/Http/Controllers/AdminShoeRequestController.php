@@ -17,7 +17,7 @@ class AdminShoeRequestController extends Controller
      */
     public function index()
     {
-        $orders = Order::all();
+        $orders = Order::latest()->get();
 
         return view('orders.admin', compact('orders'));
     }
@@ -49,9 +49,11 @@ class AdminShoeRequestController extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function show($id)
+    public function show($order_number)
     {
-        //
+        $order = Order::where('order_number', '=', $order_number);
+
+        return view('orders.individual.admin', compact('order'));
     }
 
     /**
