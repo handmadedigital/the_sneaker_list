@@ -54,6 +54,7 @@
                         @else
                             <td>${{$order->price}}</td>
                         @endif
+                        <td>{{$order->status}}</td>
                     </tr> 
                 @endforeach
                 </tbody>
