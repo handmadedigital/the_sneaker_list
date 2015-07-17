@@ -79,7 +79,8 @@
     <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs3.css">
 
 </head>
-
+@include('inc.form-errors')
+@include('inc.flash-messages')
 
 @yield('content')
 

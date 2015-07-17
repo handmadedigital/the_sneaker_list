@@ -57,6 +57,7 @@ class CheckoutController extends Controller
                 'brand' => Session::get('shoe.request')['brand'],
                 'model' => Session::get('shoe.request')['model'],
                 'size' => Session::get('shoe.request')['size'],
+                'link' => Session::get('shoe.request')['link'],
             ]);
         } catch(\Stripe\Error\Card $e) {
             // The card has been declined

@@ -21,6 +21,7 @@ class OrderRepository
         $this->model->brand = $order->brand;
         $this->model->model = $order->model;
         $this->model->size = $order->size;
+        $this->model->link = $order->link;
 
         $this->model->save();
     }

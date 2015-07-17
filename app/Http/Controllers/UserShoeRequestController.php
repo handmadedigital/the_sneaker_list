@@ -2,12 +2,15 @@
 
 namespace HMD\Http\Controllers;
 
+use HMD\Http\Requests\AcceptOrderRequest;
+use HMD\Http\Requests\DeclineOrderRequest;
 use HMD\User;
 use Illuminate\Http\Request;
 
 use HMD\Http\Requests;
 use HMD\Order;
 use HMD\Http\Controllers\Controller;
+use Laracasts\Flash\Flash;
 
 class UserShoeRequestController extends Controller
 {
@@ -91,5 +94,29 @@ class UserShoeRequestController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function postAcceptOrder(AcceptOrderRequest $request)
+    {
+        $order = Order::find($request->id);
+
+        $order->status = 'accepted';
+        $order->save();
+
+        Flash::message('Order accepted');
+
+        return redirect()->back();
+    }
+
+    public function postDeclineOrder(DeclineOrderRequest $request)
+    {
+        $order = Order::find($request->id);
+
+        $order->status = 'declined';
+        $order->save();
+
+        Flash::message('Order declined');
+
+        return redirect()->back();
     }
 }

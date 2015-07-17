@@ -48,6 +48,7 @@ $router->get('/auth/log-in', function(){
 });
 $router->post('/auth/register', ['as' => 'registration', 'uses' => 'Auth\RegisterController@store']);
 $router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionController@postLogin']);
+$router->get('/logout', ['as' => 'registration', 'uses' => 'Auth\SessionController@getLogout']);
 
 
 
@@ -58,8 +59,22 @@ $router->post('/auth/login', ['as' => 'registration', 'uses' => 'Auth\SessionCon
 /**********************/
 
 $router->group(['middleware' => 'auth'], function($router){
-    $router->get('admin/orders', ['uses' => 'AdminShoeRequestController@index']);
+
+    /****************/
+    /*
+     * ADMIN
+     */
+    /***************/
+    $router->group(['middleware' => 'admin'], function($router){
+        $router->get('admin/orders', ['uses' => 'AdminShoeRequestController@index']);
+        $router->post('/order/set-price', ['uses' => 'ShoeRequestController@postSetPrice']);
+        $router->get('/admin/order/{order_number}', ['uses' => 'AdminShoeRequestController@show']);
+    });
+
+
     $router->get('{user_id}/orders', ['uses' => 'UserShoeRequestController@index']);
-    $router->get('/admin/order/{order_number}', ['uses' => 'AdminShoeRequestController@show']);
     $router->get('/user/order/{order_number}', ['uses' => 'UserShoeRequestController@show']);
+    $router->post('order/accept', ['uses' => 'UserShoeRequestController@postAcceptOrder']);
+    $router->post('order/decline', ['uses' => 'UserShoeRequestController@postDeclineOrder']);
+
 });

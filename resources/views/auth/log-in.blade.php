@@ -145,6 +145,9 @@
             </h2>
             <div class="space-60"></div>
             <div id="signUpFormWraper">
+
+    @include('inc.form-errors')
+    @include('inc.flash-messages')
                 <form method="post" action="/auth/login" id="LoginForm">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
                     <div class="form-group">

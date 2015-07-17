@@ -143,7 +143,7 @@
             <div class="space-60"></div>
             <div id="creditCardFormWraper">
                 <form action="" method="POST" id="payment-form">
-                  <input type="hidden" name="_token" value="WiJ43brnbqs4htgP9Kjs7cB9opO3BUMSHjP1Kx29">
+                  <input type="hidden" name="_token" value="{{csrf_token()}}">
                   <span class="payment-errors"></span>
 
                   <div class="form-row">

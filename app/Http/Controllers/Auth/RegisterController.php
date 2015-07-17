@@ -41,7 +41,7 @@ class RegisterController extends Controller
 
         Flash::message('Thank you for registering');
 
-        return redirect()->back();
+        return redirect()->to('/auth/log-in');
     }
 
     /**

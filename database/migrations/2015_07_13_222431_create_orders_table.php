@@ -17,6 +17,7 @@ class CreateOrdersTable extends Migration
             $table->integer('order_number')->unique();
             $table->integer('user_id')->unsigned()->index();
             $table->string('brand');
+            $table->string('link')->nullable();
             $table->string('model');
             $table->integer('size');
             $table->decimal('price')->nullable();

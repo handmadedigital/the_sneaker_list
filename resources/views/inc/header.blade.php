@@ -51,6 +51,7 @@
 
                 @if(Auth::check())
                     <li><a href="/{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
+                    <li><a href="/logout">Logout</a></li>
                 @endif
 
               </ul>

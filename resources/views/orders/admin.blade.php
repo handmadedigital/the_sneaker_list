@@ -2,6 +2,10 @@
 
 @section('admin-content')
 
+
+@include('inc.form-errors')
+@include('inc.flash-messages')
+
 <div id="dateRange">
     <p id="title"> Your Orders!</p>
 
@@ -37,7 +41,9 @@
                         <td>{{$order->brand}}</td>
                         <td>{{$order->model}}</td>
                         @if($order->price === null)
-                            <form>
+                            <form action="/order/set-price" method="post">
+                                <input type="hidden" name="_token" value="{{csrf_token()}}">
+                                <input type="hidden" name="id" value="{{$order->id}}">
                                 <td >
                                     <input class="input-price" type="text" name="price">
                                 </td>

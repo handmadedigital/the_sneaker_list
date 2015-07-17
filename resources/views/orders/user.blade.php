@@ -65,7 +65,6 @@
 </head>
 
 <body>
-
 <div class="site_wrapper user-orders">
 
 <header class="header">
@@ -134,7 +133,7 @@
 
                 <li><a href="/{{Auth::user()->id}}/orders">{{Auth::user()->last_name}}</a></li>
 
-                <li class=""><a>Logout</a></li>
+                <li class=""><a href="/logout">Logout</a></li>
 
               </ul>
 
@@ -186,6 +185,9 @@
 </div>
 
 <div class="user-content">
+
+@include('inc.form-errors')
+@include('inc.flash-messages')
         <div class="alert success">
             Welcome To The Sneaker List, below you will find all your current orders!
             <a href="#" class="close">&times;</a>
@@ -215,6 +217,27 @@
                                 <td>{{$order->price}}</td>
                             @endif
                             <td><button class="orders-btn price-not-found">{{ucwords($order->status)}}</button></td>
+                            @if($order->status === 'quote sent')
+                                <td>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <form action="/order/accept" method="post">
+                                                <input type="hidden" name="_token" value="{{csrf_token()}}">
+                                                <input type="hidden" name="id" value="{{$order->id}}">
+                                                <button type="submit" class="gallery-image-submit" style="background: #55aa44; border: #55aa44;">Accept</button>
+                                            </form>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <form action="/order/decline" method="post">
+                                                <input type="hidden" name="_token" value="{{csrf_token()}}">
+
+                                                <input type="hidden" name="id" value="{{$order->id}}">
+                                                <button type="submit" class="gallery-image-submit">Decline</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </td>
+                            @endif
                         </tr>
                     @endforeach
                 </tbody>

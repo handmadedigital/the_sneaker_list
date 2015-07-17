@@ -32,11 +32,18 @@ class SessionController extends Controller
         {
             Flash::message('You are now logged in');
 
-            return redirect()->intended('/');
+            return redirect()->intended('/'.$this->auth->user()->id.'/orders');
         }
 
         Flash::error('Incorrect credentials');
 
         return redirect()->back();
+    }
+
+    public function getLogout()
+    {
+        $this->auth->logout();
+
+        return redirect()->to('auth/log-in');
     }
 }
