@@ -95,7 +95,7 @@
     ======================================= -->
 
     <!-- masterslider -->
-    <div class="about-us-header">
+    <div class="shoe-request-header">
 
 
         <h2 class="title25">Shoe Request<em>Any pair of sneakers, just one request away.</em>
@@ -195,24 +195,57 @@
 
                         <div class="quiz-question unactive" id="step-3">
                             <h5><em>What <strong>Size</strong> shoe are you?</em></h5>
-                            <label class="shoe-request-info" id="shoeSizeWrapper" >
-                                <label class="one-third">
-                                    <span id="mensShoeSize"><em>10</em> <br/> Men Size</span> <br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="10">
-                                </label>
-                                <label class="one-third">
-                                    <span id="womanShoeSize"><em>8.5</em> <br/> Woman Size </span><br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="8.5">
-                                </label>
-                                <label class="one-third">
-                                    <span id="kidsShoeSize"><em>9</em> <br/> Kids Size</span><br>
-                                    <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="9">
-                                </label>
-                            </label>
+                            <div class="shoe-request-info" id="shoeSizeWrapper" >
+                                <div class="one-half">
+                                    
+                                    <label class="one-full">
+                                        <span id="mensShoeSize"><em>8.5</em> <br/></span><br>
+                                        <input class="shoe-size-hidden" type="checkbox" name="size" id="shoeSizeM" value="8.5">
+                                    </label>
+                
+                                </div>
 
-                            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
                             <div id="sliderToolTip">Slide left and right to change shoe size!<br/><span id="bottomPointer"></span><span id="bottomPointerBorder"></span></div>
                             <div id="slider"></div>
+
+                                <div class="one-half">
+                                    <label class="one-third-1">
+                                         
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="toddler"><br>
+                                        <span>Men Size</span>
+                                    </label>
+                                    <label class="one-third-1">
+                                        
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="pre"><br>
+                                        <span>Woman Size</span>
+                                    </label>
+                                    <label class="one-third-1">
+                                        
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="other"><br>
+                                        <span>Kids Size</span>
+                                    </label>
+                                    <label class="one-third-1">
+                                        
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="toddler"><br>
+                                        <span>Toddler Size</span> 
+                                    </label>
+                                    <label class="one-third-1">
+                                        
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="pre"><br>
+                                        <span>Pre School</span>
+                                    </label>
+                                    <label class="one-third-1">
+                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="other"><br>
+                                        <span>Other</span>
+                                    </label>
+                                </div>
+                                
+
+                                
+                            </div>
+
+                            
                         </div>
 
 
