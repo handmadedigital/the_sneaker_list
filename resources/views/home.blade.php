@@ -262,7 +262,7 @@
         
         <div class="divider_line23"></div>
         
-        <a href="#" class="button nine"> &nbsp; Learn More &nbsp; </a>
+        <a href="/about-us" class="button nine"> &nbsp; Learn More &nbsp; </a>
            
     </div><!-- end section -->
     
@@ -660,7 +660,7 @@
 <div class="container">
 
     <h1 class="animate" data-anim-type="fadeIn" data-anim-delay="200">Request Your New Pair Of Sneakers <strong>Now!</strong></h1>
-    <a href="#" class="animate" data-anim-type="fadeInLeft" data-anim-delay="200">Get Started!</a>
+    <a href="/shoe-request" class="animate" data-anim-type="fadeInLeft" data-anim-delay="200">Get Started!</a>
     
 </div>
 </div><!-- end featured section 38 -->
@@ -679,7 +679,7 @@
       
         <p>Have a queston? Feel free to message us below with anyhting you have in mind! We are always glad to help out!</p>
         <br />
-        <p>Please be patient while waiting for response.  <strong>Phone General Inquiries: (954) 000-0000</strong></p>
+        <p>Please be patient while waiting for response.</p>
         <br /><br />
         
         <div class="cforms">
@@ -741,7 +741,6 @@
         
           <ul>
             <li> <strong>The Sneaker List INC</strong><br />
-              Telephone: (954) 000-0000<br />
               E-mail: <a href="mailto:mail@companyname.com">Info@TheSneakerListInc.com</a><br />
               Website: <a href="index.html">www.TheSneakerListInc.com</a> </li>
           </ul>

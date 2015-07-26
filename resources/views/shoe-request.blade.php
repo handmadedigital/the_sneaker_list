@@ -194,52 +194,17 @@
                         </div>
 
                         <div class="quiz-question unactive" id="step-3">
-                            <h5><em>What <strong>Size</strong> shoe are you?</em></h5>
+                            <h5><em>What <strong>Size</strong> shoe are you?</em><br/><span>(Ex: "Mens 11" "Womans 6" ect..)</span></h5>
                             <div class="shoe-request-info" id="shoeSizeWrapper" >
+            
+
                                 <div class="one-half">
+                                    <input id="shoeSizeInput" type="input" name="shoe_size" ><br/>
+                                    <button class="next-model shoe-size-submit">
+                                        <div class="" id="ModelNext" >Next</div>
+                                    </button>
+                                </div>
                                     
-                                    <label class="one-full">
-                                        <span id="mensShoeSize"><em>8.5</em> <br/></span><br>
-                                        <input class="shoe-size-hidden" type="checkbox" name="size" id="shoeSizeM" value="8.5">
-                                    </label>
-                
-                                </div>
-
-                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                            <div id="sliderToolTip">Slide left and right to change shoe size!<br/><span id="bottomPointer"></span><span id="bottomPointerBorder"></span></div>
-                            <div id="slider"></div>
-
-                                <div class="one-half">
-                                    <label class="one-third-1">
-                                         
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="toddler"><br>
-                                        <span>Men Size</span>
-                                    </label>
-                                    <label class="one-third-1">
-                                        
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="pre"><br>
-                                        <span>Woman Size</span>
-                                    </label>
-                                    <label class="one-third-1">
-                                        
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="other"><br>
-                                        <span>Kids Size</span>
-                                    </label>
-                                    <label class="one-third-1">
-                                        
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeM" value="toddler"><br>
-                                        <span>Toddler Size</span> 
-                                    </label>
-                                    <label class="one-third-1">
-                                        
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeW" value="pre"><br>
-                                        <span>Pre School</span>
-                                    </label>
-                                    <label class="one-third-1">
-                                        <input class="shoe-size" type="radio" name="size" id="shoeSizeK" value="other"><br>
-                                        <span>Other</span>
-                                    </label>
-                                </div>
                                 
 
                                 
