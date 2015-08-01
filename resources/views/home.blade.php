@@ -128,7 +128,7 @@
                 data-delay="100"
                 data-ease="easeOutExpo"
             >
-                Many web sites in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
+                Many sneakers in their various passages available but the majority <br /> have suffered alteration  versions have evolved over the years.
                 
             </h5>
             
@@ -383,7 +383,7 @@
         
         <i class="fa fa-instagram"></i>
         <h4>@illy.il</h4>
-        <p>"Chill day. Thank you @sneakerlistinc for finding these 3s for me :)"</p>
+        <p>"RocketGame #HAW | @sneakerlistinc laced me"</p>
         
         <div class="clearfix margin_top4"></div>
         
@@ -699,13 +699,13 @@
                 <input type="email" name="email" id="email">
             </label>
     
-            <!-- <div class="clearfix"></div>
+            <div class="clearfix"></div>
     
     
             <label class="label">Phone <em>*</em></label>
             <label class="input">
                 <input type="text" name="phone" id="phone">
-            </label> -->
+            </label>
     
             <div class="clearfix"></div>
     
@@ -741,8 +741,8 @@
         
           <ul>
             <li> <strong>The Sneaker List INC</strong><br />
-              E-mail: <a href="mailto:mail@companyname.com">Info@TheSneakerListInc.com</a><br />
-              Website: <a href="index.html">www.TheSneakerListInc.com</a> </li>
+              E-mail: <a href="mailto:mail@companyname.com">Contact@TheSneakerList.com</a><br />
+              Website: <a href="index.html">www.TheSneakerList.com</a> </li>
           </ul>
           
         </div><!-- end section -->

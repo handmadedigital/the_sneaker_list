@@ -10068,10 +10068,7 @@ input[type="checkbox"].shoe-model {
 	text-align: center;
 }
 
-.gallery-sneakers-position.last.animate.fadeIn {
-	margin-top: -29.8%;
-	position: absolute;
-}
+
 
 .title25 {
 	position: relative;
@@ -10141,17 +10138,15 @@ input[type="checkbox"].shoe-model {
 	font-family: 'Roboto', sans-serif !important;
 }
 
-.gallery-sneakers-position {
-
-	margin: -30% 0 0 0;
-	float: left;
-	padding: 0 3% 0 0;
+.gallery-sneakers-position.last.animate.fadeIn {
+top: -210px;
+position: absolute;
 }
 
 .request-body .about-sneaker-position {
-	margin-top: -28.6%;
-	right: -2%;
-	position: absolute;
+right: -6%;
+top: 520px;
+position: absolute;
 }
 
 body.request-body {
