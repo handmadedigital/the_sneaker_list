@@ -90,7 +90,7 @@
 <!-- masterslider -->
 <div class="how-header">
 
-<h2 class="title25 black">How It Works<em>Its simple! Want. Request. Have.</em>
+<h2 class="title25 black">How It Works<em>Its simple! Want. Request. Receive.</em>
         <span class="line"></span></h2>
 
 <div class="how-sneaker-position last animate" data-anim-type="fadeIn" data-anim-delay="300">

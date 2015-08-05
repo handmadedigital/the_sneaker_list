@@ -250,7 +250,7 @@
                             <tr class="order-info">
                                 <td id="brandName"></td>
                                 <td id="modelName"></td>
-                                <td id="shoeSize"></td>
+                                <td id="shoeSize">8.5</td>
                                 <td id="requestPrice">$14.99</td>
                             </tr>
                         </table>
@@ -263,19 +263,18 @@
                         <div id="shoeInfo">
 
                             <div class="info-label-wrapper">
-                                <div id="shoeBrand">Nike <span id="shoeModel"> Lucky 7 SB</span></div>
+                                <div id="brandName">Nike <span id="modelName"> Lucky 7 SB</span></div>
                             </div>
                             <div class="info-label-wrapper">
-                                <div id="shoeSizeBox">
-                                    <span id="userSize">8.5</span>
-                                    <span>US Men</span>
+                                <div id="requestPrice">
+                                   
                                 </div>
                             </div>
                             <div id="miniBrandLogo"></div>
                         </div>
                     </div>
 
-                    <div id="siteName">www.TheSneakerListInc.com</div>
+                    <div id="siteName">www.TheSneakerList.com</div>
                 </form>
                 </div>
             </div>
